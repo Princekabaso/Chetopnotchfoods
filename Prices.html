@@ -1,0 +1,2609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices</title>
+    <link rel="icon" href="gallery/Icons/fork.png">
+</head>
+<body>
+    <style>
+        @media (min-width: 700px){
+            body{
+                background-image: url("gallery/Images/WhatsApp Image 2021-09-02 at 09.41.31 (1).jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            #header{
+                width: 100%;
+                height: 100px;
+                background-color:rgb(0, 0, 0);
+                margin-top: -23px;
+                opacity: .7;
+                display: flex;
+            }
+            #back{
+                width: fit-content;
+                height: fit-content;
+                margin-top: -60px;
+            }
+            #back a img{
+                width: 80px;
+                height: 60px;
+                margin-left: 20px;
+                -webkit-filter: grayscale(1) invert(1);
+                filter: grayscale(1) invert(1);
+            }
+            #header h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+                margin: auto;
+            }
+            h3{
+                text-align: center;
+            }
+
+
+
+            /*TRADITIONAL AND EXTRA*/
+            #extra{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #extra h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #extra #ex{
+                width: 350px;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #traditional{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            } 
+            #traditional h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #traditional h3{
+                color: rgb(116, 57, 15);
+                text-align: center;
+                padding-top: 30px;
+                text-transform: capitalize;
+            }
+            #traditional #foodscontainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                display: flex;
+                color: gold;
+                background-color: white;
+            }
+            #traditional #foodscontainer #foods{
+                width: 350px;
+                height: 1608px;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #traditional #foodscontainer #foods ul li{
+                list-style: none;
+                margin-top: 13px;
+        }
+            /*FIRST MENU CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                display: flex;
+                color: gold;
+                background-color: white;
+            }
+            #menuContainer #firstContainer #firstMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: gold;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                border-radius: 10px;
+            }
+            #menuContainer #firstContainer #secondMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #menuContainer #firstContainer #thirdMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #menuContainer #firstContainer #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+
+            #menuContainer #secondContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                display: flex;
+                color: gold;
+            }
+            #menuContainer #secondContainer #fourthMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #menuContainer #secondContainer #fifthMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+
+            /*SECOND MENU CONTAINER*/
+            #menuContainer h1{
+                color:saddlebrown;
+                text-align: center;
+            }
+            #menuContainer #firstContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                display: flex;
+                color: rgb(183, 224, 240);
+                background-color: white;
+            }
+            #menuContainer #firstContainer2 #firstMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: rgb(183, 224, 240);
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+            }
+            #menuContainer #firstContainer2 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+            }
+            #menuContainer #firstContainer2 #thirdMenu{
+                width: 350px;
+                height: 640px;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+            }
+
+
+            #menuContainer #secondContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                display: flex;
+                color: rgb(183, 224, 240);
+            }
+            #menuContainer #secondContainer2 #fourthMenu{
+                width: 350px;
+                height: 690px;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+            }
+            #menuContainer #secondContainer2 #fifthMenu{
+                width: 350px;
+                height: 690px;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+            }
+
+
+
+            /*THIRD MENU  CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                display: flex;
+                color: greenyellow;
+                background-color: white;
+            }
+            #menuContainer #firstContainer3 #firstMenu{
+                width: 350px;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: greenyellow;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                padding-bottom: 20px;
+            }
+            #menuContainer #firstContainer3 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu{
+                width: 350px;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+            }
+            #menuContainer #firstContainer3 #thirdMenu{
+                width: 350px;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+            }
+
+
+            #menuContainer #secondContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                display: flex;
+                color: greenyellow;
+            }
+            #menuContainer #secondContainer3 #fourthMenu{
+                width: 350px;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+            }
+            #menuContainer #secondContainer3 #fifthMenu{
+                width: 350px;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+            }
+        }
+        @media (max-width: 600px){
+            body{
+                background-image: url("gallery/Images/WhatsApp Image 2021-09-02 at 09.41.31 (1).jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0;
+                padding: 0;
+            }
+            #header{
+                width: 100%;
+                height: 100px;
+                background-color:rgb(0, 0, 0);
+                margin-top: -23px;
+                opacity: .7;
+                display: flex;
+            }
+            #back{
+                width: fit-content;
+                height: fit-content;
+                margin-top: -60px;
+            }
+            #back a img{
+                width: 80px;
+                height: 60px;
+                margin-left: 20px;
+                -webkit-filter: grayscale(1) invert(1);
+                filter: grayscale(1) invert(1);
+            }
+            #header h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+                margin: auto;
+            }
+            h3{
+                text-align: center;
+            }
+
+
+
+            /*TRADITIONAL AND EXTRA*/
+            #extra{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #extra h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #extra #ex{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #traditional{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            } 
+            #traditional h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #traditional h3{
+                color: rgb(116, 57, 15);
+                text-align: center;
+                padding-top: 30px;
+                text-transform: capitalize;
+            }
+            #traditional #foodscontainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #traditional #foodscontainer #foods{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #traditional #foodscontainer #foods ul li{
+                list-style: none;
+                margin-top: 13px;
+        }
+            /*FIRST MENU CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #menuContainer #firstContainer #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: gold;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+
+            #menuContainer #secondContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: gold;
+            }
+            #menuContainer #secondContainer #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+            /*SECOND MENU CONTAINER*/
+            #menuContainer h1{
+                color:saddlebrown;
+                text-align: center;
+            }
+            #menuContainer #firstContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                background-color: white;
+            }
+            #menuContainer #firstContainer2 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: rgb(183, 224, 240);
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: rgb(183, 224, 240);
+            }
+            #menuContainer #secondContainer2 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer2 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+
+            /*THIRD MENU  CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: greenyellow;
+                background-color: white;
+            }
+            #menuContainer #firstContainer3 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: greenyellow;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                padding-bottom: 20px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: greenyellow;
+            }
+            #menuContainer #secondContainer3 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer3 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+        }
+        @media (max-width: 450px){
+            body{
+                background-image: url("gallery/Images/WhatsApp Image 2021-09-02 at 09.41.31 (1).jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0;
+                padding: 0;
+            }
+            #header{
+                width: 100%;
+                height: 100px;
+                background-color:rgb(0, 0, 0);
+                margin-top: -23px;
+                opacity: .7;
+                padding: 0;
+                margin-right: 0;
+                padding-right: 4px;
+                margin-left: 0;
+                padding-left: 0;
+                display: flex;
+            }
+            #back{
+                width: fit-content;
+                height: fit-content;
+                margin-top: -60px;
+            }
+            #back a img{
+                width: 80px;
+                height: 60px;
+                margin-left: 20px;
+                -webkit-filter: grayscale(1) invert(1);
+                filter: grayscale(1) invert(1);
+            }
+            #header h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+                margin: auto;
+            }
+            h3{
+                text-align: center;
+            }
+
+
+
+            /*TRADITIONAL AND EXTRA*/
+            #extra{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #extra h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #extra #ex{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #traditional{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            } 
+            #traditional h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+                font-size: 16px;
+            }
+            #traditional h3{
+                color: rgb(116, 57, 15);
+                text-align: center;
+                padding-top: 30px;
+                text-transform: capitalize;
+            }
+            #traditional #foodscontainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #traditional #foodscontainer #foods{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #traditional #foodscontainer #foods ul li{
+                list-style: none;
+                margin-top: 13px;
+        }
+            /*FIRST MENU CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #menuContainer #firstContainer #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: gold;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+
+            #menuContainer #secondContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: gold;
+            }
+            #menuContainer #secondContainer #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+            /*SECOND MENU CONTAINER*/
+            #menuContainer h1{
+                color:saddlebrown;
+                text-align: center;
+            }
+            #menuContainer #firstContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                background-color: white;
+            }
+            #menuContainer #firstContainer2 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: rgb(183, 224, 240);
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: rgb(183, 224, 240);
+            }
+            #menuContainer #secondContainer2 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer2 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+
+            /*THIRD MENU  CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: greenyellow;
+                background-color: white;
+            }
+            #menuContainer #firstContainer3 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: greenyellow;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                padding-bottom: 20px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: greenyellow;
+            }
+            #menuContainer #secondContainer3 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer3 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+        }
+        @media (max-width: 320px){
+            body{
+                background-image: url("gallery/Images/WhatsApp Image 2021-09-02 at 09.41.31 (1).jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0;
+                padding: 0;
+            }
+            #header{
+                width: 100%;
+                height: 100px;
+                background-color:rgb(0, 0, 0);
+                margin-top: -23px;
+                opacity: .7;
+                padding-right: 12px;
+                display: flex;
+            }
+            #back{
+                width: fit-content;
+                height: fit-content;
+                margin-top: -60px;
+            }
+            #back a img{
+                width: 20px;
+                height: 20px;
+                margin-left: 20px;
+                -webkit-filter: grayscale(1) invert(1);
+                filter: grayscale(1) invert(1);
+            }
+            #header h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+                margin: auto;
+                margin-right: 30px;
+                font-size: 15px;
+            }
+            h3{
+                text-align: center;
+            }
+
+
+
+            /*TRADITIONAL AND EXTRA*/
+            #extra{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #extra h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #extra #ex{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #traditional{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            } 
+            #traditional h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #traditional h3{
+                color: rgb(116, 57, 15);
+                text-align: center;
+                padding-top: 30px;
+                text-transform: capitalize;
+            }
+            #traditional #foodscontainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #traditional #foodscontainer #foods{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #traditional #foodscontainer #foods ul li{
+                list-style: none;
+                margin-top: 13px;
+        }
+            /*FIRST MENU CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #menuContainer #firstContainer #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: gold;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+
+            #menuContainer #secondContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: gold;
+            }
+            #menuContainer #secondContainer #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+            /*SECOND MENU CONTAINER*/
+            #menuContainer h1{
+                color:saddlebrown;
+                text-align: center;
+            }
+            #menuContainer #firstContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                background-color: white;
+            }
+            #menuContainer #firstContainer2 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: rgb(183, 224, 240);
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: rgb(183, 224, 240);
+            }
+            #menuContainer #secondContainer2 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer2 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+
+            /*THIRD MENU  CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: greenyellow;
+                background-color: white;
+            }
+            #menuContainer #firstContainer3 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: greenyellow;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                padding-bottom: 20px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: greenyellow;
+            }
+            #menuContainer #secondContainer3 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer3 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+        }
+        @media (max-width: 699px){
+            body{
+                background-image: url("gallery/Images/WhatsApp Image 2021-09-02 at 09.41.31 (1).jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0;
+                padding: 0;
+            }
+            #header{
+                width: 100%;
+                height: 100px;
+                background-color:rgb(0, 0, 0);
+                margin-top: -23px;
+                opacity: .7;
+                padding-right: 12px;
+                display: flex;
+            }
+            #back{
+                width: fit-content;
+                height: fit-content;
+                margin-top: -60px;
+            }
+            #back a img{
+                width: 80px;
+                height: 60px;
+                margin-left: 20px;
+                -webkit-filter: grayscale(1) invert(1);
+                filter: grayscale(1) invert(1);
+            }
+            #header h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+                margin: auto;
+            }
+            h3{
+                text-align: center;
+            }
+
+
+
+            /*TRADITIONAL AND EXTRA*/
+            #extra{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #extra h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #extra #ex{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+            }
+            #traditional{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            } 
+            #traditional h1{
+                color: rgb(194, 96, 26);
+                text-align: center;
+                padding-top: 30px;
+            }
+            #traditional h3{
+                color: rgb(116, 57, 15);
+                text-align: center;
+                padding-top: 30px;
+                text-transform: capitalize;
+            }
+            #traditional #foodscontainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #traditional #foodscontainer #foods{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #traditional #foodscontainer #foods ul li{
+                list-style: none;
+                margin-top: 13px;
+        }
+            /*FIRST MENU CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: gold;
+                background-color: white;
+            }
+            #menuContainer #firstContainer #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: gold;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+
+            #menuContainer #secondContainer{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: gold;
+            }
+            #menuContainer #secondContainer #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: gold;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+            /*SECOND MENU CONTAINER*/
+            #menuContainer h1{
+                color:saddlebrown;
+                text-align: center;
+            }
+            #menuContainer #firstContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                background-color: white;
+            }
+            #menuContainer #firstContainer2 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: rgb(183, 224, 240);
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer2 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer2 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer2 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer2{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: rgb(183, 224, 240);
+            }
+            #menuContainer #secondContainer2 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer2 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: rgb(183, 224, 240);
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+
+            /*THIRD MENU  CONTAINER*/
+            #menuContainer{
+                width: 90%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding: 20px;
+                opacity: .9;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #menuContainer #firstContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                color: greenyellow;
+                background-color: white;
+            }
+            #menuContainer #firstContainer3 #firstMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: rgb(0, 0, 0);
+                color: greenyellow;
+                margin: 40px;
+                margin: auto;
+                border-radius: 10px;
+                padding-bottom: 20px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #firstMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #thirdMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fourthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #secondContainer3 #fifthMenu ul li{
+                list-style: none;
+                margin-top: 13px;
+            }
+            #menuContainer #firstContainer3 #secondMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #firstContainer3 #thirdMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: 40px;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+
+
+            #menuContainer #secondContainer3{
+                width: 100%;
+                height: fit-content;
+                margin: auto;
+                margin-top: 40px;
+                color: greenyellow;
+            }
+            #menuContainer #secondContainer3 #fourthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+            #menuContainer #secondContainer3 #fifthMenu{
+                width: 100%;
+                height: fit-content;
+                border: 3px solid black;
+                background-color: black;
+                margin: auto;
+                color: greenyellow;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                margin-bottom: 40px; 
+            }
+        }
+    </style>
+    <div id="header"><br><h1>MENUS</h1></div>
+    <div id="back"><a href="index.html"><img src="iconfinder_box-arrow-left_623062.png" alt=""></a></div>
+    <div id="menuContainer">
+        <h1>White Gold Menu - K120 PER PLATE</h1>
+        <div id="firstContainer">
+        <div id="firstMenu">
+            <h1>Menu 1</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Pretty Coleslaw</li>
+            <li>Crispy Garden Salad</li>
+            <li>Sandwiches or mini wraps</li>
+            <li>Samosas</li> 
+            </ul>
+            <h3>Main</h3>
+            <ul>
+            <li>Charcoal braised Lemon and herb Chicken</li>
+            <li>Cream of Beef Mushroom</li>
+            <li>Steamed mixed Veggies.</li>
+            <li>Vegetable fried Rice</li>
+            <li>Parsley Potato wedges</li>
+            <li>Chikanda and spring onions.</li>
+            </ul>
+           
+            <h3>Dessert</h3>
+            <ul>
+            <li>Honey Fruit Salads</li>
+            <li>Cake</li>
+            </ul>
+        </div>
+        <div id="secondMenu">
+            <h1>Menu 2</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Sesame Seed Potato Salad</li>
+            <li>Crisp Garden Salad</li>
+            <li>Savoury Fritters</li> 
+            <li>CroissantsMain</li>
+            <li>Tandoori Charcoal grilled chicken</li>
+            <li>Charcoal Braised Lemon and herb pork chops</li>
+            <li>Vegetable fried Rice</li>
+            <li>Macaroni Carbonara</li>
+            <li>Chikanda and spring onions</li>
+            </ul>
+            <h3>Dessert</h3>
+            <ul>
+            <li>Cake</li>
+            <li>Whole Fresh fruits</li>
+            </ul>
+        </div>
+        <div id="thirdMenu">
+            <h1>Menu 3</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Pineapple Salsa/Apple Salsa/Avocado Salsa</li> 
+            <li>Spring Rolls</li>
+            <li>Pepper and Mint Cucumber Salad</li>
+            <li>Samosas or Mini Wraps</li>
+            </ul>
+            <h3>Main</h3>
+            <ul>
+            <li>Sweet Chili Charcoal grilled chicken</li>
+            <li>Vegetable Beef stew</li>
+            <li>Samosas</li>
+            <li>Buttered Vegetables salad</li>
+            <li>Chikanda and spring onions</li>
+            </ul>
+            <h3>Dessert</h3>
+            <ul>
+            <li>Sweet Butternuts</li>
+            <li>Swiss Rolls</li>
+            </ul>
+        </div></div>
+        <div id="secondContainer">
+            <div id="fourthMenu">
+                <h1>Menu 4</h1>
+                <h3>Starters</h3>
+                <ul>
+                <li>Olive Greek Salad</li>
+                <li>Meaty Salad</li>
+                <li>Mini Pies</li>
+                <li>Croissants</li>
+                </ul>
+                <h3>Main</h3>
+                <ul>
+                <li>Spicy potato cubes</li>
+                <li>Steamed broccoli and zucchini</li>
+                <li>Lemon and Herb fish pane</li>
+                <li>Beef stroganoff</li>
+                <li>Charcoal grilled Tikka Masala Chicken</li> 
+                <li>Chikanda and spring onions</li>
+            </ul>
+                <h3>Dessert</h3>
+                <ul>
+                <li>Honey Fruit Salad</li>
+                <li>Scones</li>
+                <ul>
+            </div>
+            <div id="fifthMenu">
+                <h1>Menu 5</h1>
+                <h3>Starters</h3>
+                <ul>
+                <li>Lettuce and Cherry Tomato Salad</li>
+                <li>Bread sticks</li>
+                <li>Honey Carrot Salad</li>
+                <li>Savoury Fritters</li>
+            </ul>
+                <h3>Main</h3>
+                <UL>
+                <li>Savoury Fritters</li>
+                <li>Beef strips in pepper sauce</li>
+                <li>Parsley Sweet Butternut</li>
+                <li>White steamed rice</li>
+                <li>Butter and Sesame seed potatoes cubes </li>
+                <li>Chikanda and spring onions</li>
+                </UL>
+                <h3>Dessert</h3>
+                <ul>
+                <li>Fresh Fruit Cuts</li>
+                <li>Sweet Rolls</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!--SECOND MENU-->
+    <div id="menuContainer">
+        <h1>Diamond Menu - K135 PER PLATE
+        </h1>
+        <div id="firstContainer2">
+        <div id="firstMenu">
+            <h1>Menu 1</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Sandwiches</li>
+            <li>Onion Rings</li>    
+            <li>Pretty Coleslaw</li>
+            </ul>
+            <h3>Main</h3>
+            <ul>
+                <l1>Charcoal grilled Parmesan chicken</li> 
+                <li>.Lemon and Garlic Beef Stew</li> 
+                <li>Fried Hungarian Sausage/ Lemon and Herb Fish pane</li> 
+                <li>Vegetable fried soy rice/Basmati Rice (Yellow and White)</li> 
+                <li>Seasoned Mixed Carrot Cauliflower vegetables</li> 
+                <li>Fried Parsley and Garlic Potato Wedges</li> 
+                <li>Chikanda and spring onions.</li> 
+            </ul>
+           
+            <h3>Dessert</h3>
+            <ul>
+                <li>Sweet Butternuts</li>
+                <li>Fruit Cuts</li>
+            </ul>
+        </div>
+        <div id="secondMenu">
+            <h1>Menu 2</h1>
+            <h3>Starters</h3>
+            <ul>
+                <li>Bread Sticks</li>
+                <li>Buffalo wings</li>
+                <li>Mini Pies</li>
+                <li>Parsley Garlic Potato Salad</li>
+            </ul>
+                    
+                <h3>Main</h3>
+            <ul>
+                <li>BBQ Charcoal grilled chicken</li>
+                <li>Sticky Pork chops</li>
+                <li>Vegetable fried rice (white and yellow)</li>
+                <li>Seasoned Steamed English vegetables</li>
+                <li>Spaghetti Bolognese</li>
+                <li>Chikanda and spring onions.</li>
+            </ul>
+            <h3>Dessert</h3>
+            <ul>
+            <li>Yoghurt and Chocolate Flakes</li>
+            <li>Fruit Cuts</li>
+            </ul>
+        </div>
+        <div id="thirdMenu">
+            <h1>Menu 3</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Onion Rings</li> 
+                <li>Chicken Strips</li>  
+                <li>Samosa</li> 
+                <li>Pretty Coleslaw</li>
+            </ul>
+            <h3>Main</h3>
+            <ul>
+            <li>BBQ charcoal grilled chicken or Peri Peri Chicken</li>
+            <li>Meatballs in sauce</li>
+            <li>Charcoal grilled Spicy Sticky Pork chops</li>
+            <li>Vegetable fried rice (white and yellow)</li>
+            <li> Garlic baked potatoes</li>
+            <li>Mixed seasoned vegetables</li>
+            <li>Chikanda and spring onions.</li>
+            <li>Macaroni Carborana</li>
+            </ul>
+            <h3>Dessert</h3>
+            <ul>
+            <li>Scones</li>
+            <li>Fruit Cuts</li>
+            </ul>
+        </div></div>
+        <div id="secondContainer2">
+            <div id="fourthMenu">
+                <h1>Menu 4</h1>
+                <h3>Starters</h3>
+                <ul>
+                <li>Pretty Coleslaw</li>
+               <li>Orange Chicken Wings</li>
+               <li>Savoury Fritters</li>
+               <li>Spring rolls</li>
+                </ul>
+                <h3>Main</h3>
+                <ul>
+                <li>Charcoal grilled Peri Peri chicken</li>
+            <li>Charcoal grilled maple glazed pork chops</li>
+        <li>Seasoned mixed broccoli and cauliflower vegetable fry</li>
+    <li>Mixed vegetable rice (white and yellow)</li>
+<li>Spaghetti Bolognese</li>
+<li>Lemon and Garlic Beef stew.</li> 
+<li>Chikanda and spring onions.</li>
+            </ul>
+                <h3>Dessert</h3>
+                <ul>
+                <li>Yoghurt and Nuts</li>
+                <li>Fruit Cuts</li>
+                <ul>
+            </div>
+            <div id="fifthMenu">
+                <h1>Menu 5</h1>
+                <h3>Starters</h3>
+                <ul>
+                <li>Samosas</li>
+                  <li>Crunchy Garden Salad</li>
+                  <li>Croissants</li> 
+                  <li>Samosas</li>
+            </ul>
+                <h3>Main</h3>
+                <UL>
+                <li>Meatballs in tomato sauce</li>
+                    <li>Lemon and Herb grilled chickenSausage Kebabs</li>
+                    <li>Mixed vegetable rice</li>
+                    <li>(Yellow and white)</li>
+                    <li>Seasoned mixed vegetable fry</li>
+                    <li>Cheese Pasta</li>
+                    <li>Parsley baked potatoes</li>
+                    <li>Gravy</li> 
+                    <li>Chikanda and spring onions.</li>
+                </UL>
+                <h3>Dessert</h3>
+                <ul>
+                <li>Fruit Cuts</li>
+                <li>Cake</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--THIRD MENU-->
+    <div id="menuContainer">
+        <h1>Scarlet Emerald Menu – K150 Per Plate</h1>
+        <div id="firstContainer3">
+        <div id="firstMenu">
+            <h1>Menu 1</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Cream of Mushroom Soup</li> 
+                <li>Onion Rings</li> 
+                <li>Pretty Rainbow fruit Salad</li> 
+                <li>Angeled Eggs</li> 
+            </ul>
+            <h3>Main</h3>
+            <ul>
+            <li>Cream of beef mushroom</li>
+                <li>exican grilled chicken/ Tandoori Chicken</li>
+                <li>Charcoal grilled Lemon and herb pork chops/ Maple Glazed Fish Fillets</li>
+                <li>Fried vegetable rice</li>
+            <li>Fried parsley potato wedges/ Mashed Creamy Potatoes</li>
+        <li>Mixed steamed vegetables</li>
+            </ul>
+           
+            <h3>Dessert</h3>
+            <ul>
+            <li>Ice cream with chocolate flakes</li>
+            <li>Yoghurt and Cheese</li>
+            </ul>
+        </div>
+        <div id="secondMenu">
+            <h1>Menu 2</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Sushi Rolls</li>
+                <li>Cream of Tomato and Spring Onion Salad</li>
+                <li>Orange Chicken Wings</li>
+                <li>Bread Sticks</li></ul>
+                <h3>Main</h3>
+            <ul>  
+            <li>Charcoal braised Tandoori Chicken</li>
+               <li>Spicy meat balls in tomato sauce</li>
+               <li>Vegetable Beef stir fry/ Maple Glazed T bone</li>
+               <li>Butter fried Jeera Rice</li>
+               <li>Macaroni Carborana</li>
+               <li>Parsley buttered Vichy Carrots</li>
+            </ul>
+            <h3>Dessert</h3>
+            <ul>
+            <li>Ice cream with fruits</li>
+            <li>Honey fruit salad</li>
+            </ul>
+        </div>
+        <div id="thirdMenu">
+            <h1>Menu 3</h1>
+            <h3>Starters</h3>
+            <ul>
+            <li>Shallow Fried Cheese Eggplants</li>
+            <li>Apple Meat Salsa</li>
+            <li>Onion Rings</li>
+            <li>Savoury Fritters</li>
+            </ul>
+            <h3>Main</h3>
+            <ul>
+            <li>Garlic and vegetable beef Stew</li>
+            <li>Maple Glazed Garlic grilled chicken</li>
+            <li>Lemon and herb fresh fried tilapia/ Lemon and Herb Fish Pane</li>
+            <li>Spicy Potato cubes/ mashed creamy potatoes</li>
+            <li>Mixed herb steamed vegetables</li>
+            </ul>
+            <h3>Dessert</h3>
+            <ul>
+            <li>Fruit Dip Ice cream</li>
+            <li>Chocolate mousse</li>
+            </ul>
+        </div></div>
+        <div id="secondContainer3">
+            <div id="fourthMenu">
+                <h1>Menu 4</h1>
+                <h3>Starters</h3>
+                <ul>
+                <li>Cream of Mushroom Soup</li>
+                <li>Angeled Eggs</li>
+                <li>Mini Pies</li>
+                <li>Sandwiches</li>
+                </ul>
+                <h3>Main</h3>
+                <ul>
+                <li>Vegetable Chicken Curry</li>
+                <li>Beef Stroganoff</li>
+                <li>Grilled Hungarian sausage roses</li>
+                <li>Parsley fried potato wedges/ mashed creamy potatoes</li>
+                <li>White steamed rice</li>
+                <li>Chikanda and Spring onion.</li>
+            </ul>
+                <h3>Dessert</h3>
+                <ul>
+                <li>Custard</li>
+                <li>Cheese Cake</li>
+                <ul>
+            </div>
+            <div id="fifthMenu">
+                <h1>Menu 5</h1>
+                <h3>Starters</h3>
+                <ul>
+                <li>Angeled Eggs</li>
+                <li>Onion Rings </li>
+                <li>Crunchy Garden Salads</li>
+                <li>Pretty Fruit Salad</li>
+            </ul>
+                <h3>Main</h3>
+                <UL>
+                <li>Tarragon Chicken mushroom in creamy sauce</li>
+                <li>Crispy Beef Strips/ Maple Glazed Tbone</li>
+                <li>Charcoal grilled Hungarian sausage roses</li>
+                <li>Parsley fried potato wedges/ mashed creamy potatoes</li>
+                <li>White/ Yellow steamed riceChikanda and Spring onion.</li>
+                </UL>
+                <h3>Dessert</h3>
+                <ul>
+                <li>Scones</li>
+                <li>Yoghurt with Chocolate flakes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="traditional">
+        <h1>Ichisekela Nsalamu/Chilanga Mulilo/ Amatebeto menu (Both Food 
+            and Labour Services available)</h1>
+        <h3>traditional Foods</h3>
+        <div id="foodscontainer">
+        <div id="foods">
+            <ul>
+                <li>Nsima (Maize Meal)</li>
+                <li>Millet meal (ubwali bwamale)</li>
+                <li>Cassava meal (ubwali bwatute)</li>
+                <li>Sorghum meal (ubwali bwamasaka)</li>
+                <li>Fresh uncooked cassava</li>
+                <li>Fresh boiled or Cassava.</li>
+                <li>Roasted dry cassava.</li>
+                <li>Roasted dry groundnuts</li>
+                <li>Boiled fresh groundnuts</li>
+                <li>Boiled fresh Maize</li>
+                <li>Boiled dry maize</li>
+                </li>Fried dry maize</li>
+                <li>Plain Samp</li>
+                <li>Samp in peanut butter</li>
+                <li>Umubu</li>
+                <li>Cucumbers</li>
+                <li>Oranges</li>
+                <li>Lemons</li>
+                <li>Mango</li>
+                <li>Avocado</li>
+                <li>Sugar cane</li>
+                <li>Boiled Ifipushi</li>
+                <li>(Pumpkins)Fresh boiled Kandolo (Sweet Potatoes)</li>
+                <li>Fresh boiled Kandolo in peanut sauce</li>
+                <li>Fresh Kandolo yakocha (Unpeeled and roasted underneath a brazier)</li>
+                <li>Insemwa ( boiled and sun-dried fresh Kandolo)</li>
+                <li>Boiled Irish Potatoes</li>
+                <li>Fried Irish Potatoes</li>
+                <li>Boiled Rice</li>
+                <li>Ichipondwa (Homemade peanut paste)</li>
+                <li>Intoyo
+                    <li>Boiled fresh bream fish</li>
+                    <li>Boiled dry bream fish</li>
+                    <li>Fried bream fish</li>
+                    <li>Charcoal grilled bream fish</li>
+                    <li>Boiled fresh tiger fish</li>
+                    <li>Boiled dry tiger fish</li>
+                    <li>Boiled dry imintesa</li>
+                    <li>Boiled fresh or dry imbowa fish</li>
+                    <li>Fried fresh Kapenta</li>
+                    <li>Fried dry Kapenta</li>
+                    <li>Fried Kapenta in peanut sauce</li>
+                    <li>Boiled dry Kapenta.</li>
+                    <li>Fried village or boiler chicken</li>
+                    <li>Beef stew</li>
+                    <li>Charcoal grilled T bone</li>
+                    <li>Boiled offals</li>
+            </ul>
+        </div> 
+        <div id="foods">
+            <ul>
+                <li>Boiled/fried/ roasted Goat meat</li>
+                    <li>Boiled Beans</li>
+                    <li>Boiled ilanda (type of beans)</li>
+                    <li>ChikandaUmulembwe (traditional okra)</li>
+                    <li>Pupwe chulu</li>
+                    <li>Tindigoma</li>
+                    <li>Zumba</li>
+                    <li>Pimpa umwefu.</li>
+                    <li>Ulumanda in peanut sauce</li>
+                    <li>Boiled Ulumanda </li>
+                    <li>Mushrooms</li>
+                    <li>Pampa in peanut sauce</li>
+                    <li>Fried Pampa</li>
+                    <li>Ichikolowa</li>
+                    <li>Chitondo</li>
+                    <li>Busefwe</li>
+                    <li>Tente </li>
+                    <li>Vegetables</li>
+                    <li>Fresh Chibwabwa (pumpkin leaves) in peanut sauce</li>
+                    <li>Boiled Chibwabwa</li>
+                    <li>Chibwabwa yansholo (only boiled with no other ingredient in it.)</li>
+                    <li>Dry Chibwabwa in peanut sauce</li>
+                    <li>Boiled Dry Chibwabwa</li>
+                    <li>Boiled fresh Kachesha ( variant beans' leaves.)</li>
+                    <li>Fresh Kachesha in peanut sauce</li>
+                    <li>Boiled dry Kachesha </li>
+                    <li>Fresh boiled Chimpapila ( beans' leaves.)</li>
+                    <li>Fresh Chimpapila in peanut sauce</li>
+                    <li>Boiled dry Chimpapila (dry beans' leaves.)</li>
+                    <li>Dry Chimpapila (dry beans' leaves) in peanut sauce</li>
+                    <li>Impwa (Garden eggs) in peanut sauceFried Impwa</li> 
+                    <li>Fried Kalembula (Sweet Potato leaves)</li>
+                    <li>Boiled Kalembula</li>
+                    <li>Kalembula in peanut sauce</li>
+                    <li>Kalembula yansholo (boiled with no other ingredient added to it)</li>
+                    <li>Boiled fresh Ibondwe</li>
+                    <li>Fresh Katapa (Cassava leaves) in peanut sauce</li>
+                    <li>Boiled fresh Katapa</li>
+                    <li>Amankolobwe in peanut sauce</li>
+                    <li>Roasted Intetele (pumpkin seeds)</li>
+                    <li>Variety of Traditional fruits</li>
+                    <li>Traditional brews</li>
+                    <li>Umunkonyo</li>
+                    <li>Tobwa</li>
+                    <li>Katata</li>
+                    <li>Katubi</li>
+                    <li>Chibwantu</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div id="extra">
+        <h1>Workshops and Seminars menu</h1>
+        <h3>Includes 2 Tea breaks, buffet lunch, drinks, water and fruits.</h3>
+        <div id="ex">
+        <ul>
+            <li>15 - 20 people @K4000</li>
+            <li>20 - 35 people @ K5,500</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
